@@ -24,7 +24,7 @@
         @yield('js-files')
         @yield('scripts')
     </head>
-    <body>
+    <body class="bg-white">
         @include('header')
 
         @yield('content')

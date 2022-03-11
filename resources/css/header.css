@@ -1,0 +1,34 @@
+body {
+    padding-top: 90px;
+}
+
+header .navbar .dropdown-menu {
+    width: 350px;
+}
+
+header .navbar .dropdown-menu .dropdown-item {
+    white-space: unset;
+}
+
+@media (max-width: 575.98px) {
+    header .navbar .dropdown-menu {
+        width: unset;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    body {
+        padding-top: 0;
+    }
+    header .navbar {
+        position: relative;
+    }
+    header .navbar .dropdown-menu {
+        border: none;
+    }
+    header .navbar .navbar-nav {
+        width: 290px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

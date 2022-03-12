@@ -35,18 +35,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-12 col-md-6 text-center my-4">
+                    <div class="mb-3"><img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt=""></div>
                     <h2 class="fs-1" data-toggle="counterUp">142</h2>
                     <h6 class="fs-5 fw-bold text-secondary">wykonanych badań</h6>
                 </div>
                 <div class="col-lg-3 col-12 col-md-6 text-center my-4">
+                    <div class="mb-3"><img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt=""></div>
                     <h2 class="fs-1" data-toggle="counterUp">455</h2>
                     <h6 class="fs-5 fw-bold text-secondary">pacjentów</h6>
                 </div>
                 <div class="col-lg-3 col-12 col-md-6 text-center my-4">
+                    <div class="mb-3"><img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt=""></div>
                     <h2 class="fs-1" data-toggle="counterUp">4,262</h2>
                     <h6 class="fs-5 fw-bold text-secondary">badań dostępnych w ofercie</h6>
                 </div>
                 <div class="col-lg-3 col-12 col-md-6 text-center my-4">
+                    <div class="mb-3"><img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt=""></div>
                     <h2 class="fs-1" data-toggle="counterUp">25</h2>
                     <h6 class="fs-5 fw-bold text-secondary">średnia ocena z google</h6>
                     <div class="d-flex justify-content-center">
@@ -56,6 +60,74 @@
                         <span class="ms-1 fs-5 fw-bold text-secondary">518 opinii</span>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="company-values bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5 order-0"><h2 class="fw-bold text-center">Wartości, które cenimy w naszej firmie</h2></div>
+            <div class="col-lg-6 pe-5 order-2 order-lg-1">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="align-self-center my-3 my-lg-0 me-0 me-lg-3">
+                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                    </div>
+                    <div class="text-center text-lg-start">
+                        <h3>Komfort</h3>
+                        <p>
+                            Kanapa, a może łóżko? Bliski trzymający za rękę? Zainspirowani bajką o złotej rybce chcemy spełniać życzenia o idealnym badaniu - i to nie tylko trzy
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="align-self-center my-3 my-lg-0 me-0 me-lg-3">
+                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                    </div>
+                    <div class="text-center text-lg-start">
+                        <h3>Doświadczenie</h3>
+                        <p>
+                            Badamy wszystkich! Kilkumiesięczny maluch, słabo widoczne żyły - nasi specjaliści to drużyna do zadań specjalnych
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="align-self-center my-3 my-lg-0 me-0 me-lg-3">
+                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                    </div>
+                    <div class="text-center text-lg-start">
+                        <h3>Wspólne pobranie</h3>
+                        <p>
+                            Na jednej wizycie zbadasz całą rodzinę lub paczkę przyjaciół. Wygodne, prawda? Dodamy, że za pobranie zapłacisz tylko raz. To nie żart!
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="align-self-center my-3 my-lg-0 me-0 me-lg-3">
+                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                    </div>
+                    <div class="text-center text-lg-start">
+                        <h3>Czas</h3>
+                        <p>
+                            Dzięki nam Pacjenci oszczędzają średnio 2 godziny. Już teraz zaplanuj dłuższą drzemkę czy rodzinne śniadanie w dniu badania
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="align-self-center my-3 my-lg-0 me-0 me-lg-3">
+                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                    </div>
+                    <div class="text-center text-lg-start">
+                        <h3>Bezpieczeństwo</h3>
+                        <p>
+                            Remont w łazience? Nie przejmuj się, my zadbamy o higienę pobrania.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center order-1 order-lg-2">
+                <img class="img-fluid rounded" src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" alt="">
             </div>
         </div>
     </div>

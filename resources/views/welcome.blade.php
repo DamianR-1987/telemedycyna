@@ -67,7 +67,9 @@
 <section class="company-values bg-light py-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 mb-5 order-0"><h2 class="fw-bold text-center">Wartości, które cenimy w naszej firmie</h2></div>
+            <div class="col-12 mb-5 order-0">
+                <h2 class="fw-bold text-center">Wartości, które cenimy w naszej firmie</h2>
+            </div>
             <div class="col-lg-6 pe-5 order-2 order-lg-1">
                 <div class="d-flex flex-column flex-lg-row">
                     <div class="align-self-center my-3 my-lg-0 me-0 me-lg-3">
@@ -211,7 +213,7 @@
             </div>
             <div class="ask-doctor col-12 text-center mt-3">
                 <h2 class="fs-4 text-secondary my-3">Nie wiesz, jakie badania wybrać?<br>Zapytaj lekarza lub diagnosty</h2>
-                <a href="#" class="mt-3 mx-auto btn btn-primary fw-bold text-white rounded-pill py-2 px-4">
+                <a href="#" class="text-uppercase mt-3 mx-auto btn btn-primary fw-bold text-white rounded-pill py-2 px-4">
                     POTRZEBUJE PORADY
                 </a>
             </div>
@@ -671,6 +673,206 @@
                                 <div class="col d-flex justify-content-center">
                                     <a class="navbar-brand p-0 m-0" href="/" aria-label="Bootstrap">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block my-1" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="packages_and_tests bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5">
+                <h2 class="fw-bold text-center">Zadbaj o zdrowie wybierając badania lub pakiety badań</h2>
+            </div>
+            <ul class="nav nav-pills justify-content-center mb-5" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a id="pills-packages-tab" data-bs-toggle="pill" data-bs-target="#pills-packages" role="tab" aria-controls="pills-packages" aria-selected="true" class="active text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                        PAKIETY
+                    </a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a id="pills-tests-tab" data-bs-toggle="pill" data-bs-target="#pills-tests" role="tab" aria-controls="pills-tests" aria-selected="false" class="text-uppercase text-decoration-none nav-link bg-white fw-bold text-primary border border-primary rounded-pill py-2 px-4 mx-3" href="#">
+                        BADANIA
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-packages" role="tabpanel" aria-labelledby="pills-packages-tab">
+                    <div class="row row-cols-1 row-cols-lg-4">
+                        <div class="col my-3">
+                            <div class="card border-0 h-100">
+                                <a href="#">
+                                    <img src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body h-75">
+                                    <h3 class="card-title fs-6">
+                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">e-PAKIET DLA KAŻDEGO (MAKSIMUM)</a>
+                                    </h3>
+                                    <p class="card-text overflow-hidden mb-0">
+                                        e-PAKIET DLA KAŻDEGO w wersji MAKSIMUM dostarcza kompleksowych informacji na temat stanu organizmu (tzw. homeostazy). Badania zostały dobrane tak, by ich wyniki pozwalały zidentyfikować problem zdrowotny w obrębie konkretnego...
+                                    </p>
+                                    <a class="text-decoration-none" href="#">Czytaj więcej</a>
+                                </div>
+                                <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
+                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                        Wybierz pakiet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col my-3">
+                            <div class="card border-0 h-100">
+                                <a href="#">
+                                    <img src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body h-75">
+                                    <h3 class="card-title fs-6">
+                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">e-PAKIET DLA KAŻDEGO (MAKSIMUM) Z KONSULTACJĄ</a>
+                                    </h3>
+                                    <p class="card-text overflow-hidden mb-0">
+                                        e-PAKIET DLA KAŻDEGO w wersji MAKSIMUM z konsultacją pozwala skontrolować ogólny stan organizmu i funkcjonowanie najważniejszych narządów. Dzięki temu, że poza badaniami pakiet obejmuje konsultację, wygodnie i szybko uzy...
+                                    </p>
+                                    <a class="text-decoration-none" href="#">Czytaj więcej</a>
+                                </div>
+                                <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
+                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                        Wybierz pakiet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col my-3">
+                            <div class="card border-0 h-100">
+                                <a href="#">
+                                    <img src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body h-75">
+                                    <h3 class="card-title fs-6">
+                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">e-PAKIET DLA MĘŻCZYZN</a>
+                                    </h3>
+                                    <p class="card-text overflow-hidden mb-0">
+                                        e-PAKIET DLA MĘŻCZYZN to zestaw badań, który pozwala ocenić ogólny stan zdrowia, sprawdzić funkcjonowanie najważniejszych narządów (nerek, wątroby, tarczycy) oraz wykryć ewentualne niedobory i odchylenia. Pakiet obejmu...
+                                    </p>
+                                    <a class="text-decoration-none" href="#">Czytaj więcej</a>
+                                </div>
+                                <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
+                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                        Wybierz pakiet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col my-3">
+                            <div class="card border-0 h-100">
+                                <a href="#">
+                                    <img src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body h-75">
+                                    <h3 class="card-title fs-6">
+                                        <a href="#" class="card-link text-decoration-none text-dark  fw-bold">e-PAKIET DLA KOBIET</a>
+                                    </h3>
+                                    <p class="card-text overflow-hidden mb-0">
+                                        Pakiet zawiera badania umożliwiające kompleksowy przeglądu zdrowia. Dzięki pakietowi uzyskasz informacje na temat niedoborów witamin, mikro- i makroelementów, zweryfikujesz pracę najważniejszych narządów (tarczyca, wątr...
+                                    </p>
+                                    <a class="text-decoration-none" href="#">Czytaj więcej</a>
+                                </div>
+                                <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
+                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                        Wybierz pakiet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-tests" role="tabpanel" aria-labelledby="pills-tests-tab">
+                    <div class="row row-cols-1 row-cols-lg-4">
+                        <div class="col my-3">
+                            <div class="card border-0 h-100">
+                                <a href="#">
+                                    <img src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body h-75">
+                                    <h3 class="card-title fs-6">
+                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">Morfologia krwi (pełna)</a>
+                                    </h3>
+                                    <p class="card-text overflow-hidden mb-0">
+                                        Morfologia krwi pełna to podstawowe badanie diagnostyczne, które pozwala ocenić ogólną kondycję organizmu. Wyniki badania dostarczają informacji na temat ilości i jakości elementów morfotycznych krwi: krwinek czerwonych ...
+                                    </p>
+                                    <a class="text-decoration-none" href="#">Czytaj więcej</a>
+                                </div>
+                                <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
+                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                        Wybierz badanie
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col my-3">
+                            <div class="card border-0 h-100">
+                                <a href="#">
+                                    <img src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body h-75">
+                                    <h3 class="card-title fs-6">
+                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">CRP</a>
+                                    </h3>
+                                    <p class="card-text overflow-hidden mb-0">
+                                        CRP (białko C-reaktywne) to białko tzw. ostrej fazy. Oznacza to, że jego stężenie rośnie w wyniku stanów zapalnych czy urazów. CRP jest oznaczane ilościowo w diagnostyce wielu schorzeń, uszkodzeń tkanek oraz kontroli le...
+                                    </p>
+                                    <a class="text-decoration-none" href="#">Czytaj więcej</a>
+                                </div>
+                                <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
+                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                        Wybierz badanie
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col my-3">
+                            <div class="card border-0 h-100">
+                                <a href="#">
+                                    <img src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body h-75">
+                                    <h3 class="card-title fs-6">
+                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">TSH</a>
+                                    </h3>
+                                    <p class="card-text overflow-hidden mb-0">
+                                        Pomiar stężenia TSH (inaczej tyreotropiny, hormonu tyreotropowego) to najczulsze badanie stosowane w diagnostyce zaburzeń czynności tarczycy. Pozwala wykrywać również te schorzenia i stany, które przebiegają bezobjawowo. ...
+                                    </p>
+                                    <a class="text-decoration-none" href="#">Czytaj więcej</a>
+                                </div>
+                                <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
+                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                        Wybierz badanie
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col my-3">
+                            <div class="card border-0 h-100">
+                                <a href="#">
+                                    <img src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" class="card-img-top" alt="">
+                                </a>
+                                <div class="card-body h-75">
+                                    <h3 class="card-title fs-6">
+                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">Witamina D metabolit 25(OH)</a>
+                                    </h3>
+                                    <p class="card-text overflow-hidden mb-0">
+                                        Badanie służy do oceny i kontroli poziomu całkowitej 25-hydroksy witaminy D, inaczej witaminy 25(OH)D. Często wykonuje się ją w diagnostyce zaburzeń gospodarki wapniowo-fosforanowej, w tym chorób metabolicznych tkanki kost...
+                                    </p>
+                                    <a class="text-decoration-none" href="#">Czytaj więcej</a>
+                                </div>
+                                <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
+                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                        Wybierz badanie
                                     </a>
                                 </div>
                             </div>

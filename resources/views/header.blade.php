@@ -209,8 +209,8 @@
                 </a>
             </li>
             <li class="nav-tem order-item ms-3 d-none d-xl-block">
-                <a class="text-decoration-none nav-link bg-danger fw-bold text-white rounded-pill py-2 px-4" href="#">
-                    {{__('ZAMÓW')}}
+                <a class="text-uppercase text-decoration-none nav-link bg-danger fw-bold text-white rounded-pill py-2 px-4" href="#">
+                    ZAMÓW
                 </a>
             </li>
         </ul>

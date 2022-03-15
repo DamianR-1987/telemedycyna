@@ -993,6 +993,131 @@
     </div>
 </section>
 
+<section class="blog bg-light py-5">
+    <div class="container py-5 rounded">
+        <div class="row">
+            <div class="col-12 order-0">
+                <h2 class="fw-bold text-center">Łap wiedzę  o zdrowiu</h2>
+            </div>
+            <div class="col-12 d-flex justify-content-center order-2 order-lg-1 my-3 pb-4">
+                <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                    Czytaj więcej
+                </a>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 order-1 order-lg-2">
+                <div class="col my-3">
+                    <div class="card border-0 h-100">
+                        <a href="#">
+                            <img src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" class="card-img-top" alt="">
+                        </a>
+                        <div class="card-body h-75">
+                            <div class="blog_category d-flex flex-wrap mb-3">
+                                <a class="p-0 text-decoration-none nav-link" href="#">
+                                    <span class="badge rounded-pill bg-light text-primary fw-bold">Zdrowie</span>
+                                </a>
+                            </div>
+                            <h3 class="card-title fs-6">
+                                <a href="#" class="card-link text-decoration-none text-dark fw-bold">e-PAKIET DLA KAŻDEGO (MAKSIMUM)</a>
+                            </h3>
+                            <p class="card-text overflow-hidden mb-0">
+                                Dlaczego odczuwamy ból i do czego właściwie jest on nam potrzebny? - tłumaczy Joanna Bałdyga.
+                            </p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-end bg-white mt-auto py-4 mx-3">
+                            <div class="post_time m-1 d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="m-1 bi bi-clock" viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                </svg>
+                                <span class="m-1 text-muted">5 min</span>
+                            </div>
+                            <div class="post_date m-1 d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="m-1 bi bi-calendar-event" viewBox="0 0 16 16">
+                                    <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                                </svg>
+                                <span class="m-1 text-muted">11 marca</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-3">
+                    <div class="card border-0 h-100">
+                        <a href="#">
+                            <img src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" class="card-img-top" alt="">
+                        </a>
+                        <div class="card-body h-75">
+                            <div class="blog_category d-flex flex-wrap mb-3">
+                                <a class="p-0 text-decoration-none nav-link" href="#">
+                                    <span class="badge rounded-pill bg-light text-primary fw-bold">Zdrowie</span>
+                                </a>
+                            </div>
+                            <h3 class="card-title fs-6">
+                                <a href="#" class="card-link text-decoration-none text-dark fw-bold">Blizna - jak wpływa na dolegliwości bólowe?</a>
+                            </h3>
+                            <p class="card-text overflow-hidden mb-0">
+                                Czym dokładnie są blizny i jak właściwie o nie dbać?
+                            </p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-end bg-white mt-auto py-4 mx-3">
+                            <div class="post_time m-1 d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="m-1 bi bi-clock" viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                </svg>
+                                <span class="m-1 text-muted">5 min</span>
+                            </div>
+                            <div class="post_date m-1 d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="m-1 bi bi-calendar-event" viewBox="0 0 16 16">
+                                    <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                                </svg>
+                                <span class="m-1 text-muted">10 marca</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-3">
+                    <div class="card border-0 h-100">
+                        <a href="#">
+                            <img src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" class="card-img-top" alt="">
+                        </a>
+                        <div class="card-body h-75">
+                            <div class="blog_category d-flex flex-wrap mb-3">
+                                <a class="p-0 text-decoration-none nav-link" href="#">
+                                    <span class="badge rounded-pill bg-light text-primary fw-bold">Styl życia</span>
+                                </a>
+                            </div>
+                            <h3 class="card-title fs-6">
+                                <a href="#" class="card-link text-decoration-none text-dark fw-bold">Kobieca solidarność - dlaczego jest nam potrzebna i jak ją stworzyć?</a>
+                            </h3>
+                            <p class="card-text overflow-hidden mb-0">
+                                Często, aby dobra relacja utrzymywała się pomiędzy kobietami, to samoocena i siła jednej muszą być w oczach drugiej zbliżone do samooceny i siły drugiej.
+                            </p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-end bg-white mt-auto py-4 mx-3">
+                            <div class="post_time m-1 d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="m-1 bi bi-clock" viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                </svg>
+                                <span class="m-1 text-muted">5 min</span>
+                            </div>
+                            <div class="post_date m-1 d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="m-1 bi bi-calendar-event" viewBox="0 0 16 16">
+                                    <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                                </svg>
+                                <span class="m-1 text-muted">7 marca</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 @endsection
 
 {{-- Trzeba doinstalować JQuery - Ja próbowałem ale mi się nie udało --}}

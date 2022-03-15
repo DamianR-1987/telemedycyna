@@ -884,6 +884,115 @@
     </div>
 </section>
 
+{{-- Trzeba dopracować responsywność w sliderze - nie umiałem na małym ekranie wyświetlić jednego elementu --}}
+<section class="about_us py-5">
+    <div class="container bg-light py-5 rounded">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="fw-bold text-center">Media about us</h2>
+            </div>
+            <div class="col-12 py-5">
+                <div id="carouselAbout" class="carousel slide" data-bs-interval="false">
+                    <div class="carousel-indicators m-0">
+                      <button type="button" data-bs-target="#carouselAbout" data-bs-slide-to="0" class="bg-primary rounded-pill border-primary border-1 active" style="width:12px; height:12px" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselAbout" data-bs-slide-to="1" class="rounded-pill border-primary border-1" style="width:12px; height:12px" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="d-flex justify-content-center flex-column col-6 col-lg-3">
+                                    <div class="mb-3 text-center">
+                                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                                    </div>
+                                    <div class="mb-3 text-center mt-auto">
+                                        <a class="card-button btn text-primary fw-bold rounded-pill py-2 px-4" href="#" role="button">WYBIERZ BADANIA</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center flex-column col-6 col-lg-3">
+                                    <div class="mb-3 text-center">
+                                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                                    </div>
+                                    <div class="mb-3 text-center mt-auto">
+                                        <a class="card-button btn text-primary fw-bold rounded-pill py-2 px-4" href="#" role="button">WYBIERZ BADANIA</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center flex-column col-6 col-lg-3">
+                                    <div class="mb-3 text-center">
+                                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                                    </div>
+                                    <div class="mb-3 text-center mt-auto">
+                                        <a class="card-button btn text-primary fw-bold rounded-pill py-2 px-4" href="#" role="button">WYBIERZ BADANIA</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center flex-column col-6 col-lg-3">
+                                    <div class="mb-3 text-center">
+                                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                                    </div>
+                                    <div class="mb-3 text-center mt-auto">
+                                        <a class="card-button btn text-primary fw-bold rounded-pill py-2 px-4" href="#" role="button">WYBIERZ BADANIA</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="d-flex justify-content-center flex-column col-6 col-lg-3">
+                                    <div class="mb-3 text-center">
+                                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                                    </div>
+                                    <div class="mb-3 text-center mt-auto">
+                                        <a class="card-button btn text-primary fw-bold rounded-pill py-2 px-4" href="#" role="button">WYBIERZ BADANIA</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center flex-column col-6 col-lg-3">
+                                    <div class="mb-3 text-center">
+                                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                                    </div>
+                                    <div class="mb-3 text-center mt-auto">
+                                        <a class="card-button btn text-primary fw-bold rounded-pill py-2 px-4" href="#" role="button">WYBIERZ BADANIA</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center flex-column col-6 col-lg-3">
+                                    <div class="mb-3 text-center">
+                                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                                    </div>
+                                    <div class="mb-3 text-center mt-auto">
+                                        <a class="card-button btn text-primary fw-bold rounded-pill py-2 px-4" href="#" role="button">WYBIERZ BADANIA</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center flex-column col-6 col-lg-3">
+                                    <div class="mb-3 text-center">
+                                        <img class="img-fluid" src="https://www.drogeriaolmed.pl/images/svg/pro4.svg" alt="">
+                                    </div>
+                                    <div class="mb-3 text-center mt-auto">
+                                        <a class="card-button btn text-primary fw-bold rounded-pill py-2 px-4" href="#" role="button">WYBIERZ BADANIA</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAbout" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon position-absolute top-50 start-0 text-dark" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                        </svg>
+                      </span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAbout" data-bs-slide="next">
+                      <span class="carousel-control-next-icon text-dark position-absolute top-50 end-0" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                      </span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 @endsection
 
 {{-- Trzeba doinstalować JQuery - Ja próbowałem ale mi się nie udało --}}

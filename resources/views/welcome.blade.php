@@ -684,6 +684,7 @@
     </div>
 </section>
 
+{{-- Dobrze by było znaleźć podobny slaider jak uPacjenta.pl i go wykorzystać chyba że zgodzimy się na nieco inny wygląd w responsywności --}}
 <section class="packages_and_tests bg-light py-5">
     <div class="container">
         <div class="row">
@@ -993,6 +994,7 @@
     </div>
 </section>
 
+{{-- Dobrze by było znaleźć podobny slaider jak uPacjenta.pl i go wykorzystać chyba że zgodzimy się na nieco inny wygląd w responsywności --}}
 <section class="blog bg-light py-5">
     <div class="container py-5 rounded">
         <div class="row">
@@ -1113,6 +1115,66 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="newsletter py-5">
+    <div class="container bg-light py-5 rounded">
+        <div class="row">
+            <div class="col-12 d-xl-none px-5">
+                <p class="fs-3 fw-bold text-center">Eksperckie treści i regularne zniżki. Zapisz się do newslettera!</p>
+            </div>
+            <div class="col-12 col-lg-4 px-5 text-center">
+                <img class="img-fluid rounded" src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" alt="">
+            </div>
+            <div class="col-12 col-lg-8 px-5">
+                <p class="fs-3 fw-bold text-center d-none d-xl-block">Eksperckie treści i regularne zniżki. Zapisz się do newslettera!</p>
+
+                <form class="my-3">
+                    <div class="mb-3 position-relative">
+                      <input type="email" name="email_newsletter" class="form-control rounded-pill fw-bold  bg-white ps-5 @error('email_newsletter') is-invalid @enderror" id="email_newsletter" aria-describedby="email newsletter" placeholder="Adres e-mail" value="{{ old('email_newsletter') }}" required>
+
+                        @error('email_newsletter')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=" position-absolute top-50 start-0 translate-middle  ms-4 bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                      </svg>
+                      <button type="submit" class="btn btn-primary d-flex align-items-center d-none d-xl-block position-absolute top-50 end-0 translate-middle-y text-uppercase fw-bold rounded-pill py-2 ps-4 pe-2" >
+                        Zapisz się
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right mx-2" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" name ="checkbox_consent" class="form-check-input @error('checkbox_consent') is-invalid @enderror"" id="checkbox_consent" aria-describedby="checkbox consent" required>
+                      <label class="form-check-label" for="exampleCheck1">
+                        Wyrażam zgodę na otrzymywanie drogą elektroniczną na wskazany przeze mnie adres email informacji handlowej w rozumieniu art.10 ust.1 ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą elektroniczną od House-Med Sp. z o.o. z siedzibą przy ul. Kuklińskiego 17A, 30-720 Kraków.
+                      </label>
+
+                        @error('checkbox_consent')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+
+                    </div>
+                    <div class="mb-3 d-xl-none d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary d-flex align-items-center text-uppercase fw-bold rounded-pill py-2 ps-4 pe-2" >
+                            Zapisz się
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right mx-2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                          </button>
+                    </div>
+
+                  </form>
             </div>
         </div>
     </div>

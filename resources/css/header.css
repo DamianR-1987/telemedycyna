@@ -1,13 +1,24 @@
-body {
-    padding-top: 90px;
-}
-
 header .navbar .dropdown-menu {
     width: 350px;
 }
 
 header .navbar .dropdown-menu .dropdown-item {
     white-space: unset;
+}
+
+header .navbar ul.navbar-nav li.nav-item {
+    color: #444;
+}
+
+header .navbar .btn-order {
+    background-color: #e85617;
+    color: #fff;
+    border: 1px solid #e85617;
+}
+
+header .navbar .btn-order:hover {
+    background-color: #fff;
+    color: #e85617;
 }
 
 @media (max-width: 575.98px) {
@@ -17,9 +28,6 @@ header .navbar .dropdown-menu .dropdown-item {
 }
 
 @media (max-width: 1199.98px) {
-    body {
-        padding-top: 0;
-    }
     header .navbar {
         position: relative;
     }

@@ -1,0 +1,39 @@
+.card .card-body .card-title .card-link {
+    color: #e85617;
+}
+
+.card .card-body .card-text {
+    color: #222;
+}
+
+.card .card-footer {
+    color: rgba(0, 0, 0, .4);
+}
+
+.card .card-footer .btn-card {
+    background-color: #e85617;
+    color: #fff;
+}
+
+.card .card-footer .btn-card:hover {
+    background-color: #333;
+}
+
+.test-search form button,
+.newsletter form button {
+    background-color: #e85617;
+    color: #fff;
+    border-color: #e85617;
+}
+
+.nav.nav-pills .nav-item a {
+    background-color: #f4f4f4;
+    color: #222;
+    border-color: #f4f4f4;
+}
+
+.nav.nav-pills .nav-item a.active {
+    background-color: #222222;
+    color: #f9f9f9;
+    border-color: #222;
+}

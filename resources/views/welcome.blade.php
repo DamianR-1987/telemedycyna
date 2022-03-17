@@ -7,8 +7,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script> --}}
 @endsection
 
+@section('css-files')
+    <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+@endsection
+
 @section('content')
-<section class="test-search bg-light py-5">
+<section class="test-search bg-grey py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex justify-content-center align-items-center flex-column">
@@ -20,7 +24,7 @@
                         <input type="text" placeholder="Wyszukaj badanie lub pakiet" class="form-control rounded-pill fw-bold  bg-white py-4 px-5" id="inputText1">
                     </div>
                     <div class="col-xl-2">
-                        <button type="submit" class="d-block btn btn-danger fw-bold text-white rounded-pill py-4 px-5 my-xl-0 my-3 mx-auto">Szukaj</button>
+                        <button type="submit" class="d-block btn fw-bold text-white rounded-pill py-4 px-5 my-xl-0 my-3 mx-auto">Szukaj</button>
                     </div>
                 </form>
             </div>
@@ -64,7 +68,7 @@
         </div>
     </div>
 </section>
-<section class="company-values bg-light py-5">
+<section class="company-values bg-grey py-5">
     <div class="container">
         <div class="row">
             <div class="col-12 mb-5 order-0">
@@ -213,7 +217,7 @@
             </div>
             <div class="ask-doctor col-12 text-center mt-3">
                 <h2 class="fs-4 text-secondary my-3">Nie wiesz, jakie badania wybrać?<br>Zapytaj lekarza lub diagnosty</h2>
-                <a href="#" class="text-uppercase mt-3 mx-auto btn btn-primary fw-bold text-white rounded-pill py-2 px-4">
+                <a href="#" class="btn-default text-uppercase mt-3 mx-auto btn btn-primary fw-bold rounded-pill py-2 px-4">
                     POTRZEBUJE PORADY
                 </a>
             </div>
@@ -223,7 +227,7 @@
 
 {{-- Trzeba dopracować responsywność w sliderach "opinie" i "partnerzy" - nie umiałem na małym ekranie wyświetlić jednego elementu --}}
 <section class="opinions_and_partners py-5">
-    <div class="container bg-light py-5 rounded">
+    <div class="container bg-grey py-5 rounded">
         <div class="row">
             <div class="col-12 py-5">
                 <h2 class="fw-bold text-center">Opinie naszych klientów</h2>
@@ -270,7 +274,7 @@
                                             <img class="img-fluid rounded-circle" src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" alt="">
                                         </div>
                                         <div class="author-details p-2">
-                                            <p class="author-name fs-5 text-primary fw-bold">Aleksandra Mitura</p>
+                                            <p class="author-name fs-5 fw-bold">Aleksandra Mitura</p>
                                             <p class="author-firm">Country HR Advisor w Cargotec Poland Sp. z o.o.</p>
                                         </div>
                                     </div>
@@ -308,7 +312,7 @@
                                             <img class="img-fluid rounded-circle" src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" alt="">
                                         </div>
                                         <div class="author-details p-2">
-                                            <p class="author-name fs-5 text-primary fw-bold">Elżbieta U.</p>
+                                            <p class="author-name fs-5 fw-bold">Elżbieta U.</p>
                                             <p class="author-firm"></p>
                                         </div>
                                     </div>
@@ -346,7 +350,7 @@
                                             <img class="img-fluid rounded-circle" src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" alt="">
                                         </div>
                                         <div class="author-details p-2">
-                                            <p class="author-name fs-5 text-primary fw-bold">Piotr K.</p>
+                                            <p class="author-name fs-5 fw-bold">Piotr K.</p>
                                             <p class="author-firm"></p>
                                         </div>
                                     </div>
@@ -388,7 +392,7 @@
                                             <img class="img-fluid rounded-circle" src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" alt="">
                                         </div>
                                         <div class="author-details p-2">
-                                            <p class="author-name fs-5 text-primary fw-bold">Aleksandra Mitura</p>
+                                            <p class="author-name fs-5 fw-bold">Aleksandra Mitura</p>
                                             <p class="author-firm">Country HR Advisor w Cargotec Poland Sp. z o.o.</p>
                                         </div>
                                     </div>
@@ -426,7 +430,7 @@
                                             <img class="img-fluid rounded-circle" src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" alt="">
                                         </div>
                                         <div class="author-details p-2">
-                                            <p class="author-name fs-5 text-primary fw-bold">Elżbieta U.</p>
+                                            <p class="author-name fs-5 fw-bold">Elżbieta U.</p>
                                             <p class="author-firm"></p>
                                         </div>
                                     </div>
@@ -464,7 +468,7 @@
                                             <img class="img-fluid rounded-circle" src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" alt="">
                                         </div>
                                         <div class="author-details p-2">
-                                            <p class="author-name fs-5 text-primary fw-bold">Piotr K.</p>
+                                            <p class="author-name fs-5 fw-bold">Piotr K.</p>
                                             <p class="author-firm"></p>
                                         </div>
                                     </div>
@@ -506,7 +510,7 @@
                                             <img class="img-fluid rounded-circle" src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" alt="">
                                         </div>
                                         <div class="author-details p-2">
-                                            <p class="author-name fs-5 text-primary fw-bold">Aleksandra Mitura</p>
+                                            <p class="author-name fs-5 fw-bold">Aleksandra Mitura</p>
                                             <p class="author-firm">Country HR Advisor w Cargotec Poland Sp. z o.o.</p>
                                         </div>
                                     </div>
@@ -544,7 +548,7 @@
                                             <img class="img-fluid rounded-circle" src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" alt="">
                                         </div>
                                         <div class="author-details p-2">
-                                            <p class="author-name fs-5 text-primary fw-bold">Elżbieta U.</p>
+                                            <p class="author-name fs-5 fw-bold">Elżbieta U.</p>
                                             <p class="author-firm"></p>
                                         </div>
                                     </div>
@@ -582,7 +586,7 @@
                                             <img class="img-fluid rounded-circle" src="https://www.drogeriaolmed.pl/blog_zdjecia/sluz-slimaka-wlasciwosci-zastosowanie-w-kosmetykach.jpg?ver=1645100562" alt="">
                                         </div>
                                         <div class="author-details p-2">
-                                            <p class="author-name fs-5 text-primary fw-bold">Piotr K.</p>
+                                            <p class="author-name fs-5 fw-bold">Piotr K.</p>
                                             <p class="author-firm"></p>
                                         </div>
                                     </div>
@@ -685,7 +689,7 @@
 </section>
 
 {{-- Dobrze by było znaleźć podobny slaider jak uPacjenta.pl i go wykorzystać chyba że zgodzimy się na nieco inny wygląd w responsywności --}}
-<section class="packages_and_tests bg-light py-5">
+<section class="packages_and_tests bg-grey py-5">
     <div class="container">
         <div class="row">
             <div class="col-12 mb-5">
@@ -693,12 +697,12 @@
             </div>
             <ul class="nav nav-pills justify-content-center mb-5" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <a id="pills-packages-tab" data-bs-toggle="pill" data-bs-target="#pills-packages" role="tab" aria-controls="pills-packages" aria-selected="true" class="active text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                    <a id="pills-packages-tab" data-bs-toggle="pill" data-bs-target="#pills-packages" role="tab" aria-controls="pills-packages" aria-selected="true" class="active text-uppercase text-decoration-none fw-bold border rounded-pill py-2 px-4 mx-3" href="#">
                         PAKIETY
                     </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a id="pills-tests-tab" data-bs-toggle="pill" data-bs-target="#pills-tests" role="tab" aria-controls="pills-tests" aria-selected="false" class="text-uppercase text-decoration-none nav-link bg-white fw-bold text-primary border border-primary rounded-pill py-2 px-4 mx-3" href="#">
+                    <a id="pills-tests-tab" data-bs-toggle="pill" data-bs-target="#pills-tests" role="tab" aria-controls="pills-tests" aria-selected="false" class="text-uppercase text-decoration-none fw-bold border rounded-pill py-2 px-4 mx-3" href="#">
                         BADANIA
                     </a>
                 </li>
@@ -713,7 +717,7 @@
                                 </a>
                                 <div class="card-body h-75">
                                     <h3 class="card-title fs-6">
-                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">e-PAKIET DLA KAŻDEGO (MAKSIMUM)</a>
+                                        <a href="#" class="card-link text-decoration-none fw-bold">e-PAKIET DLA KAŻDEGO (MAKSIMUM)</a>
                                     </h3>
                                     <p class="card-text overflow-hidden mb-0">
                                         e-PAKIET DLA KAŻDEGO w wersji MAKSIMUM dostarcza kompleksowych informacji na temat stanu organizmu (tzw. homeostazy). Badania zostały dobrane tak, by ich wyniki pozwalały zidentyfikować problem zdrowotny w obrębie konkretnego...
@@ -721,7 +725,7 @@
                                     <a class="text-decoration-none" href="#">Czytaj więcej</a>
                                 </div>
                                 <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
-                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                    <a role="button" class="btn-card text-uppercase text-decoration-none nav-link fw-bold rounded-pill py-2 px-4 mx-3" href="#">
                                         Wybierz pakiet
                                     </a>
                                 </div>
@@ -734,7 +738,7 @@
                                 </a>
                                 <div class="card-body h-75">
                                     <h3 class="card-title fs-6">
-                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">e-PAKIET DLA KAŻDEGO (MAKSIMUM) Z KONSULTACJĄ</a>
+                                        <a href="#" class="card-link text-decoration-none fw-bold">e-PAKIET DLA KAŻDEGO (MAKSIMUM) Z KONSULTACJĄ</a>
                                     </h3>
                                     <p class="card-text overflow-hidden mb-0">
                                         e-PAKIET DLA KAŻDEGO w wersji MAKSIMUM z konsultacją pozwala skontrolować ogólny stan organizmu i funkcjonowanie najważniejszych narządów. Dzięki temu, że poza badaniami pakiet obejmuje konsultację, wygodnie i szybko uzy...
@@ -742,7 +746,7 @@
                                     <a class="text-decoration-none" href="#">Czytaj więcej</a>
                                 </div>
                                 <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
-                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                    <a role="button" class="btn-card text-uppercase text-decoration-none nav-link fw-bold rounded-pill py-2 px-4 mx-3" href="#">
                                         Wybierz pakiet
                                     </a>
                                 </div>
@@ -755,7 +759,7 @@
                                 </a>
                                 <div class="card-body h-75">
                                     <h3 class="card-title fs-6">
-                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">e-PAKIET DLA MĘŻCZYZN</a>
+                                        <a href="#" class="card-link text-decoration-none fw-bold">e-PAKIET DLA MĘŻCZYZN</a>
                                     </h3>
                                     <p class="card-text overflow-hidden mb-0">
                                         e-PAKIET DLA MĘŻCZYZN to zestaw badań, który pozwala ocenić ogólny stan zdrowia, sprawdzić funkcjonowanie najważniejszych narządów (nerek, wątroby, tarczycy) oraz wykryć ewentualne niedobory i odchylenia. Pakiet obejmu...
@@ -763,7 +767,7 @@
                                     <a class="text-decoration-none" href="#">Czytaj więcej</a>
                                 </div>
                                 <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
-                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                    <a role="button" class="btn-card text-uppercase text-decoration-none nav-link fw-bold rounded-pill py-2 px-4 mx-3" href="#">
                                         Wybierz pakiet
                                     </a>
                                 </div>
@@ -776,7 +780,7 @@
                                 </a>
                                 <div class="card-body h-75">
                                     <h3 class="card-title fs-6">
-                                        <a href="#" class="card-link text-decoration-none text-dark  fw-bold">e-PAKIET DLA KOBIET</a>
+                                        <a href="#" class="card-link text-decoration-none fw-bold">e-PAKIET DLA KOBIET</a>
                                     </h3>
                                     <p class="card-text overflow-hidden mb-0">
                                         Pakiet zawiera badania umożliwiające kompleksowy przeglądu zdrowia. Dzięki pakietowi uzyskasz informacje na temat niedoborów witamin, mikro- i makroelementów, zweryfikujesz pracę najważniejszych narządów (tarczyca, wątr...
@@ -784,7 +788,7 @@
                                     <a class="text-decoration-none" href="#">Czytaj więcej</a>
                                 </div>
                                 <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
-                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                    <a role="button" class="btn-card text-uppercase text-decoration-none nav-link fw-bold rounded-pill py-2 px-4 mx-3" href="#">
                                         Wybierz pakiet
                                     </a>
                                 </div>
@@ -801,7 +805,7 @@
                                 </a>
                                 <div class="card-body h-75">
                                     <h3 class="card-title fs-6">
-                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">Morfologia krwi (pełna)</a>
+                                        <a href="#" class="card-link text-decoration-none fw-bold">Morfologia krwi (pełna)</a>
                                     </h3>
                                     <p class="card-text overflow-hidden mb-0">
                                         Morfologia krwi pełna to podstawowe badanie diagnostyczne, które pozwala ocenić ogólną kondycję organizmu. Wyniki badania dostarczają informacji na temat ilości i jakości elementów morfotycznych krwi: krwinek czerwonych ...
@@ -809,7 +813,7 @@
                                     <a class="text-decoration-none" href="#">Czytaj więcej</a>
                                 </div>
                                 <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
-                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                    <a role="button" class="btn-card text-uppercase text-decoration-none nav-link fw-bold rounded-pill py-2 px-4 mx-3" href="#">
                                         Wybierz badanie
                                     </a>
                                 </div>
@@ -822,7 +826,7 @@
                                 </a>
                                 <div class="card-body h-75">
                                     <h3 class="card-title fs-6">
-                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">CRP</a>
+                                        <a href="#" class="card-link text-decoration-none fw-bold">CRP</a>
                                     </h3>
                                     <p class="card-text overflow-hidden mb-0">
                                         CRP (białko C-reaktywne) to białko tzw. ostrej fazy. Oznacza to, że jego stężenie rośnie w wyniku stanów zapalnych czy urazów. CRP jest oznaczane ilościowo w diagnostyce wielu schorzeń, uszkodzeń tkanek oraz kontroli le...
@@ -830,7 +834,7 @@
                                     <a class="text-decoration-none" href="#">Czytaj więcej</a>
                                 </div>
                                 <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
-                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                    <a role="button" class="btn-card text-uppercase text-decoration-none nav-link fw-bold rounded-pill py-2 px-4 mx-3" href="#">
                                         Wybierz badanie
                                     </a>
                                 </div>
@@ -843,7 +847,7 @@
                                 </a>
                                 <div class="card-body h-75">
                                     <h3 class="card-title fs-6">
-                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">TSH</a>
+                                        <a href="#" class="card-link text-decoration-none fw-bold">TSH</a>
                                     </h3>
                                     <p class="card-text overflow-hidden mb-0">
                                         Pomiar stężenia TSH (inaczej tyreotropiny, hormonu tyreotropowego) to najczulsze badanie stosowane w diagnostyce zaburzeń czynności tarczycy. Pozwala wykrywać również te schorzenia i stany, które przebiegają bezobjawowo. ...
@@ -851,7 +855,7 @@
                                     <a class="text-decoration-none" href="#">Czytaj więcej</a>
                                 </div>
                                 <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
-                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                    <a role="button" class="btn-card text-uppercase text-decoration-none nav-link fw-bold rounded-pill py-2 px-4 mx-3" href="#">
                                         Wybierz badanie
                                     </a>
                                 </div>
@@ -864,7 +868,7 @@
                                 </a>
                                 <div class="card-body h-75">
                                     <h3 class="card-title fs-6">
-                                        <a href="#" class="card-link text-decoration-none text-dark fw-bold">Witamina D metabolit 25(OH)</a>
+                                        <a href="#" class="card-link text-decoration-none fw-bold">Witamina D metabolit 25(OH)</a>
                                     </h3>
                                     <p class="card-text overflow-hidden mb-0">
                                         Badanie służy do oceny i kontroli poziomu całkowitej 25-hydroksy witaminy D, inaczej witaminy 25(OH)D. Często wykonuje się ją w diagnostyce zaburzeń gospodarki wapniowo-fosforanowej, w tym chorób metabolicznych tkanki kost...
@@ -872,7 +876,7 @@
                                     <a class="text-decoration-none" href="#">Czytaj więcej</a>
                                 </div>
                                 <div class="card-footer d-flex justify-content-center bg-white border-top-0 mt-auto pb-4">
-                                    <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                                    <a role="button" class="btn-card text-uppercase text-decoration-none nav-link fw-bold rounded-pill py-2 px-4 mx-3" href="#">
                                         Wybierz badanie
                                     </a>
                                 </div>
@@ -887,7 +891,7 @@
 
 {{-- Trzeba dopracować responsywność w sliderze - nie umiałem na małym ekranie wyświetlić jednego elementu --}}
 <section class="about_us py-5">
-    <div class="container bg-light py-5 rounded">
+    <div class="container bg-grey py-5 rounded">
         <div class="row">
             <div class="col-12">
                 <h2 class="fw-bold text-center">Media about us</h2>
@@ -995,14 +999,14 @@
 </section>
 
 {{-- Dobrze by było znaleźć podobny slaider jak uPacjenta.pl i go wykorzystać chyba że zgodzimy się na nieco inny wygląd w responsywności --}}
-<section class="blog bg-light py-5">
+<section class="blog bg-grey py-5">
     <div class="container py-5 rounded">
         <div class="row">
             <div class="col-12 order-0">
-                <h2 class="fw-bold text-center">Łap wiedzę  o zdrowiu</h2>
+                <h2 class="fw-bold text-center">Łap wiedzę o zdrowiu</h2>
             </div>
             <div class="col-12 d-flex justify-content-center order-2 order-lg-1 my-3 pb-4">
-                <a role="button" class="text-uppercase text-decoration-none nav-link bg-primary fw-bold text-white rounded-pill py-2 px-4 mx-3" href="#">
+                <a role="button" class="btn-default text-uppercase text-decoration-none nav-link fw-bold rounded-pill py-2 px-4 mx-3" href="#">
                     Czytaj więcej
                 </a>
             </div>
@@ -1015,11 +1019,11 @@
                         <div class="card-body h-75">
                             <div class="blog_category d-flex flex-wrap mb-3">
                                 <a class="p-0 text-decoration-none nav-link" href="#">
-                                    <span class="badge rounded-pill bg-light text-primary fw-bold">Zdrowie</span>
+                                    <span class="badge rounded-pill bg-grey text-primary fw-bold">Zdrowie</span>
                                 </a>
                             </div>
                             <h3 class="card-title fs-6">
-                                <a href="#" class="card-link text-decoration-none text-dark fw-bold">e-PAKIET DLA KAŻDEGO (MAKSIMUM)</a>
+                                <a href="#" class="card-link text-decoration-none fw-bold">e-PAKIET DLA KAŻDEGO (MAKSIMUM)</a>
                             </h3>
                             <p class="card-text overflow-hidden mb-0">
                                 Dlaczego odczuwamy ból i do czego właściwie jest on nam potrzebny? - tłumaczy Joanna Bałdyga.
@@ -1051,11 +1055,11 @@
                         <div class="card-body h-75">
                             <div class="blog_category d-flex flex-wrap mb-3">
                                 <a class="p-0 text-decoration-none nav-link" href="#">
-                                    <span class="badge rounded-pill bg-light text-primary fw-bold">Zdrowie</span>
+                                    <span class="badge rounded-pill bg-grey text-primary fw-bold">Zdrowie</span>
                                 </a>
                             </div>
                             <h3 class="card-title fs-6">
-                                <a href="#" class="card-link text-decoration-none text-dark fw-bold">Blizna - jak wpływa na dolegliwości bólowe?</a>
+                                <a href="#" class="card-link text-decoration-none fw-bold">Blizna - jak wpływa na dolegliwości bólowe?</a>
                             </h3>
                             <p class="card-text overflow-hidden mb-0">
                                 Czym dokładnie są blizny i jak właściwie o nie dbać?
@@ -1087,11 +1091,11 @@
                         <div class="card-body h-75">
                             <div class="blog_category d-flex flex-wrap mb-3">
                                 <a class="p-0 text-decoration-none nav-link" href="#">
-                                    <span class="badge rounded-pill bg-light text-primary fw-bold">Styl życia</span>
+                                    <span class="badge rounded-pill bg-grey text-primary fw-bold">Styl życia</span>
                                 </a>
                             </div>
                             <h3 class="card-title fs-6">
-                                <a href="#" class="card-link text-decoration-none text-dark fw-bold">Kobieca solidarność - dlaczego jest nam potrzebna i jak ją stworzyć?</a>
+                                <a href="#" class="card-link text-decoration-none fw-bold">Kobieca solidarność - dlaczego jest nam potrzebna i jak ją stworzyć?</a>
                             </h3>
                             <p class="card-text overflow-hidden mb-0">
                                 Często, aby dobra relacja utrzymywała się pomiędzy kobietami, to samoocena i siła jednej muszą być w oczach drugiej zbliżone do samooceny i siły drugiej.
@@ -1121,7 +1125,7 @@
 </section>
 
 <section class="newsletter py-5">
-    <div class="container bg-light py-5 rounded">
+    <div class="container bg-grey py-5 rounded">
         <div class="row">
             <div class="col-12 d-xl-none px-5">
                 <p class="fs-3 fw-bold text-center">Eksperckie treści i regularne zniżki. Zapisz się do newslettera!</p>
@@ -1145,7 +1149,7 @@
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=" position-absolute top-50 start-0 translate-middle  ms-4 bi bi-envelope" viewBox="0 0 16 16">
                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                       </svg>
-                      <button type="submit" class="btn btn-primary d-flex align-items-center d-none d-xl-block position-absolute top-50 end-0 translate-middle-y text-uppercase fw-bold rounded-pill py-2 ps-4 pe-2" >
+                      <button type="submit" class="btn d-flex align-items-center d-none d-xl-block position-absolute top-50 end-0 translate-middle-y text-white text-uppercase fw-bold rounded-pill py-2 ps-4 pe-2" >
                         Zapisz się
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right mx-2" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
@@ -1154,7 +1158,7 @@
                     </div>
                     <div class="mb-3 form-check">
                       <input type="checkbox" name ="checkbox_consent" class="form-check-input @error('checkbox_consent') is-invalid @enderror"" id="checkbox_consent" aria-describedby="checkbox consent" required>
-                      <label class="form-check-label" for="exampleCheck1">
+                      <label class="form-check-label" for="checkbox_consent">
                         Wyrażam zgodę na otrzymywanie drogą elektroniczną na wskazany przeze mnie adres email informacji handlowej w rozumieniu art.10 ust.1 ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą elektroniczną od House-Med Sp. z o.o. z siedzibą przy ul. Kuklińskiego 17A, 30-720 Kraków.
                       </label>
 

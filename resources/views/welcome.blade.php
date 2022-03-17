@@ -1182,12 +1182,16 @@
 
 @endsection
 
+@section('scripts')
 {{-- Trzeba doinstalować JQuery - Ja próbowałem ale mi się nie udało --}}
 {{-- <script type="text/javascript">
+$(document).ready(function(){
     $('[data-toggle="counterUp"]').counterUp({
         delay: 15,
         time: 1500
     });
+});
 </script> --}}
+@endsection
 
 

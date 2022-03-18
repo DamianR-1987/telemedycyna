@@ -24,6 +24,16 @@ h2 {
     border: 1px solid #e85617;
 }
 
+.btn-green {
+    background-color: rgba(0, 160, 55, .85);
+    color: #fff;
+}
+
+.btn-green:hover {
+    background-color: #00e640;
+    color: #fff;
+}
+
 @media (max-width: 1199.98px) {
     body {
         padding-top: 0;

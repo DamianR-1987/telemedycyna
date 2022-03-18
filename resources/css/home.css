@@ -6,6 +6,10 @@
     color: #222;
 }
 
+.card .card-body .rating .stars {
+    color: #26ae54;
+}
+
 .card .card-footer {
     color: rgba(0, 0, 0, .4);
 }
@@ -36,4 +40,12 @@
     background-color: #222222;
     color: #f9f9f9;
     border-color: #222;
+}
+
+.counts-section .counts-number {
+    color: #5282b3;
+}
+
+.blog .blog-category .badge {
+    color: #26ae54;
 }

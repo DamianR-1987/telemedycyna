@@ -12,6 +12,7 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+mix.js('resources/js/home/swiper_sliders.js', 'public/js/home')
     .sass('resources/sass/app.scss', 'public/css')
     .styles('resources/css/layout.css', 'public/css/layout.css')
     .styles('resources/css/header.css', 'public/css/header.css')

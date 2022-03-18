@@ -1,5 +1,6 @@
 window._ = require('lodash');
 window.$ = window.JQuery = require('jquery');
+window.Swiper = require('swiper/bundle');
 
 try {
     require('bootstrap');
